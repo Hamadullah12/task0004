@@ -1,0 +1,27 @@
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: white;
+    color: black;
+}
